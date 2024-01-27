@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav{
+display: flex;
+background-color: black;
+color: white;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+position: fixed;
+width: 100%;
+
+
+}
+.navleft{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  cursor: pointer;
+}
+.navright{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  cursor: pointer;
+}
+.navlogo{
+  max-width: 100px;
+}
